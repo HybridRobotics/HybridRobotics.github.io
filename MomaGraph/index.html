@@ -1587,18 +1587,96 @@
     </div>
     
     <!-- Overlay for better text readability -->
-    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); z-index: 2;"></div>
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 2;"></div>
 
     <!-- Title Content -->
-    <div class="hero-body" style="z-index: 10; position: relative;">
-      <div class="container has-text-centered" id="top">
+    <div class="hero-body" style="z-index: 10; position: relative; width: 100%;">
+      <div class="container has-text-centered" id="top" style="max-width: 1200px; margin: 0 auto;">
         <h1 class="title is-1 publication-title" style="font-size: 4rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); color: white; margin-bottom: 1rem;">
           <span style="font-weight: bolder;">MomaGraph</span> 
           <img src="./figures/logo.png" alt="icon" style="width: 3rem; height: 3rem; vertical-align: middle; margin-left: 0.5rem;">
         </h1>
-        <h2 class="subtitle is-3 publication-title" style="font-size: 2rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); color: white; margin-bottom: 1rem;">
+        <h2 class="subtitle is-3 publication-title" style="font-size: 2rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); color: white; margin-bottom: 2rem;">
           State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning
         </h2>
+
+        <!-- Authors Section (Moved) -->
+        <div style="text-align: center; margin-bottom: 20px;">
+          <!-- First Authors -->
+          <p style="font-size: 1.4rem; line-height: 1.5; margin-bottom: 5px; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); color: white;">
+            <a href="https://scholar.google.com/citations?user=jOPXmhIAAAAJ&hl=en" target="_blank" style="color: white;">Yuanchen Ju</a><sup style="margin-right: 25px;">*<img src="figures/bkl.png" alt="Berkeley" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://cheryyunl.github.io/" target="_blank" style="color: white;">Yongyuan Liang</a><sup style="margin-right: 25px;">*<img src="figures/umd.png" alt="UMD" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://wangyenjen.github.io/" target="_blank" style="color: white;">Yen-Jen Wang</a><sup style="margin-right: 25px;">*<img src="figures/bkl.png" alt="Berkeley" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+          </p>
+          <!-- Middle Authors -->
+          <p style="font-size: 1.4rem; line-height: 1.5; margin-bottom: 5px; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); color: white;">
+            <a href="https://user432.github.io/" target="_blank" style="color: white;">Nandiraju Gireesh</a><sup style="margin-right: 25px;"></sup>
+            <a href="https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=zh-CN" target="_blank" style="color: white;">Yuanliang Ju</a><sup style="margin-right: 25px;"><img src="figures/uoft.png" alt="Toronto" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://sjlee.cc/" target="_blank" style="color: white;">Seungjae Lee</a><sup style="margin-right: 25px;"><img src="figures/umd.png" alt="UMD" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://georgegu1997.github.io/" target="_blank" style="color: white;">Qiao Gu</a><sup style="margin-right: 25px;"><img src="figures/uoft.png" alt="Toronto" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://elvishh77.github.io/" target="_blank" style="color: white;">Elvis Hsieh</a><sup style="margin-right: 25px;"><img src="figures/bkl.png" alt="Berkeley" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+          </p>
+          <!-- Advisors -->
+          <p style="font-size: 1.4rem; line-height: 1.5; margin-bottom: 20px; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); color: white;">
+            <a href="https://furong-huang.com/" target="_blank" style="color: white;">Furong Huang</a><sup style="margin-right: 25px;">†<img src="figures/umd.png" alt="UMD" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+            <a href="https://hybrid-robotics.berkeley.edu/koushil/" target="_blank" style="color: white;">Koushil Sreenath</a><sup style="margin-right: 25px;">†<img src="figures/bkl.png" alt="Berkeley" style="height: 24px; vertical-align: middle; margin-left: 3px;"></sup>
+          </p>
+          <!-- Affiliations -->
+          <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 25px; flex-wrap: wrap; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); transform: translateX(-30px);">
+            <div style="text-align: center;">
+              <img src="figures/bkl.png" alt="UC Berkeley" style="height: 80px; margin-bottom: 10px;">
+              <p style="font-size: 0.9rem; color: white; margin: 0;"><sup>1</sup>University of California, Berkeley</p>
+            </div>
+            <div style="text-align: center;">
+              <img src="figures/umd.png" alt="UMD" style="height: 80px; margin-bottom: 10px;">
+              <p style="font-size: 0.9rem; color: white; margin: 0;"><sup>2</sup>University of Maryland, College Park</p>
+            </div>
+            <div style="text-align: center;">
+              <img src="figures/uoft.png" alt="University of Toronto" style="height: 80px; margin-bottom: 10px;">
+              <p style="font-size: 0.9rem; color: white; margin: 0;"><sup>3</sup>University of Toronto</p>
+            </div>
+          </div>
+          
+          <!-- Equal Contribution Note -->
+          <p style="font-size: 0.95rem; color: #eee; text-align: center; margin-top: 20px; font-style: italic; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); transform: translateX(-30px);">
+            ∗ Equal Contribution, † Equal Advising
+          </p>
+          
+          <!-- Links Section -->
+          <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 25px; flex-wrap: wrap;">
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-file-text" style="margin-right: 10px; font-size: 1.1rem;"></i>arXiv
+              </div>
+            </a>
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-file-pdf-o" style="margin-right: 10px; font-size: 1.1rem;"></i>Paper
+              </div>
+            </a>
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-github" style="margin-right: 10px; font-size: 1.1rem;"></i>Code
+              </div>
+            </a>
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-database" style="margin-right: 10px; font-size: 1.1rem;"></i>Dataset
+              </div>
+            </a>
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-bar-chart" style="margin-right: 10px; font-size: 1.1rem;"></i>Benchmark
+              </div>
+            </a>
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: rgba(43, 43, 43, 0.8); color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2);">
+                <i class="fa fa-rocket" style="margin-right: 10px; font-size: 1.1rem;"></i>HuggingFace Model
+              </div>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -1608,94 +1686,10 @@
   <br>
   <br>
 
-  <!-- Title Section -->
-  <div style="text-align: center; margin-bottom: 30px;">
-    <h1 style="font-size: 2.5rem; color: #333; margin-bottom: 0; line-height: 1.5; font-weight: bold;">
-      MomaGraph
-      <img src="./figures/logo.png" alt="icon" style="width: 2.5rem; height: 2.5rem; vertical-align: middle; margin: 0 0.5rem;">: 
-      State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning
-    </h1>
-  </div>
-
-  <!-- Authors Section -->
-  <div style="text-align: center; margin-bottom: 40px;">
-    <!-- First Authors -->
-    <p style="font-size: 1.3rem; line-height: 2; margin-bottom: 5px; text-align: center;">
-      <a href="https://scholar.google.com/citations?user=jOPXmhIAAAAJ&hl=en" target="_blank" style="color: #004AAE;">Yuanchen Ju</a><sup>*<img src="figures/bkl.png" alt="Berkeley" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://cheryyunl.github.io/" target="_blank" style="color: #004AAE;">Yongyuan Liang</a><sup>*<img src="figures/umd.png" alt="UMD" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://wangyenjen.github.io/" target="_blank" style="color: #004AAE;">Yen-Jen Wang</a><sup>*<img src="figures/bkl.png" alt="Berkeley" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>
-    </p>
-    <!-- Middle Authors -->
-    <p style="font-size: 1.3rem; line-height: 2; margin-bottom: 5px; text-align: center;">
-      <a href="https://user432.github.io/" target="_blank" style="color: #004AAE;">Nandiraju Gireesh</a><sup></sup>,
-      <a href="https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=zh-CN" target="_blank" style="color: #004AAE;">Yuanliang Ju</a><sup><img src="figures/uoft.png" alt="Toronto" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://sjlee.cc/" target="_blank" style="color: #004AAE;">Seungjae Lee</a><sup><img src="figures/umd.png" alt="UMD" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://georgegu1997.github.io/" target="_blank" style="color: #004AAE;">Qiao Gu</a><sup><img src="figures/uoft.png" alt="Toronto" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://elvishh77.github.io/" target="_blank" style="color: #004AAE;">Elvis Hsieh</a><sup><img src="figures/bkl.png" alt="Berkeley" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>
-    </p>
-    <!-- Advisors -->
-    <p style="font-size: 1.3rem; line-height: 2; margin-bottom: 20px; text-align: center;">
-      <a href="https://furong-huang.com/" target="_blank" style="color: #004AAE;">Furong Huang</a><sup>†<img src="figures/umd.png" alt="UMD" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>,
-      <a href="https://hybrid-robotics.berkeley.edu/koushil/" target="_blank" style="color: #004AAE;">Koushil Sreenath</a><sup>†<img src="figures/bkl.png" alt="Berkeley" style="height: 20px; vertical-align: middle; margin-left: 3px;"></sup>
-    </p>
-    <!-- Affiliations -->
-    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 25px; flex-wrap: wrap;">
-      <div style="text-align: center;">
-        <img src="figures/bkl.png" alt="UC Berkeley" style="height: 70px; margin-bottom: 10px;">
-        <p style="font-size: 0.9rem; color: #666; margin: 0;"><sup>1</sup>University of California, Berkeley</p>
-      </div>
-      <div style="text-align: center;">
-        <img src="figures/umd.png" alt="UMD" style="height: 70px; margin-bottom: 10px;">
-        <p style="font-size: 0.9rem; color: #666; margin: 0;"><sup>2</sup>University of Maryland, College Park</p>
-      </div>
-      <div style="text-align: center;">
-        <img src="figures/uoft.png" alt="University of Toronto" style="height: 70px; margin-bottom: 10px;">
-        <p style="font-size: 0.9rem; color: #666; margin: 0;"><sup>3</sup>University of Toronto</p>
-      </div>
-    </div>
-    
-    <!-- Equal Contribution Note -->
-    <p style="font-size: 0.95rem; color: #666; text-align: center; margin-top: 20px; font-style: italic;">
-      ∗ Equal Contribution, † Equal Advising
-    </p>
-    
-    <!-- Links Section -->
-    <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 25px; flex-wrap: wrap;">
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-file-text" style="margin-right: 10px; font-size: 1.1rem;"></i>arXiv
-        </div>
-      </a>
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-file-pdf-o" style="margin-right: 10px; font-size: 1.1rem;"></i>Paper
-        </div>
-      </a>
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-github" style="margin-right: 10px; font-size: 1.1rem;"></i>Code
-        </div>
-      </a>
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-database" style="margin-right: 10px; font-size: 1.1rem;"></i>Dataset
-        </div>
-      </a>
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-bar-chart" style="margin-right: 10px; font-size: 1.1rem;"></i>Benchmark
-        </div>
-      </a>
-      <a href="#" target="_blank" style="text-decoration: none;">
-        <div style="background-color: #2b2b2b; color: white; padding: 12px 28px; border-radius: 25px; font-size: 1.05rem; font-weight: 500; transition: all 0.3s; cursor: pointer; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-          <i class="fa fa-rocket" style="margin-right: 10px; font-size: 1.1rem;"></i>HuggingFace Model
-        </div>
-      </a>
-    </div>
-  </div>
+  <!-- Title and Authors Section moved to Hero -->
 
 <div>
-  <h2 style="color: #0780cf;">Abstract</h2>
+  <h2 style="color: #FDB515;">Abstract</h2>
   </div>
   <div style="display: flex; justify-content: center;">
     <img src="figures/Teaser.png" alt="Teaser Image" style="width: 940px">
@@ -1714,14 +1708,14 @@
   <div>
     <div>
 
-      <h2 style="color: #0780cf;">Preliminary Findings and Motivation Experiments</h2>
+      <h2 style="color: #FDB515;">Preliminary Findings and Motivation Experiments</h2>
     </div>
     <p class="abstract" style="margin-top: 20px;">
       To ground our analysis, before the full evaluations we perform two motivating experiments on the <strong>MomaGraph-Bench</strong>. These comparisons are designed to validate our motivation and design principles, and to reveal why our proposed model is essential for embodied task planning. In this section, we aim to answer the following questions.
     </p>
     <br>
     <div>
-      <h3 style="color: #0780cf; margin-top: 30px;">Are VLMs Reliable for Direct Planning Without Scene Graphs?</h3>
+      <h3 style="color: #FDB515; margin-top: 30px;">Are VLMs Reliable for Direct Planning Without Scene Graphs?</h3>
     </div>
     <p class="abstract" style="margin-top: 20px;">
       To examine whether direct planning from visual inputs is reliable even for strong closed-source VLMs, we design controlled evaluations on real-world household tasks such as <em>"Open the window"</em> and <em>"Obtain clean boiled water"</em>. In these scenarios, models must reason over functional relationships, spatial constraints, and multi-step dependencies (e.g., plug-in before activation, filtration before boiling). As shown in the figure below, despite their scale, closed-source VLMs like GPT-5 produce incorrect or incomplete plans, missing prerequisite steps, or misidentifying interaction types. In contrast, our <strong><em>Graph-then-Plan</em></strong> approach, which first generates a task-specific scene graph and then performs planning, consistently produces correct and complete action sequences aligned with ground-truth logic. This demonstrates that incorporating structured scene representations significantly enhances planning accuracy and robustness beyond what direct planning can achieve.
@@ -1732,9 +1726,9 @@
     </div>
     <br>
     <div style="display: flex; justify-content: center;">
-      <div style="border: 2px solid #0780cf; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #f8f9ff; width: 900px;">
+      <div style="border: 2px solid #FFD6A5; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #FFF8F0; width: 900px;">
         <div>
-          <h4 style="color: #0780cf; margin-top: 0; margin-bottom: 15px;">Preliminary Findings 1</h4>
+          <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px;">Preliminary Findings 1</h4>
           <p style="font-style: italic; margin-bottom: 0;">
             • In contrast to directly relying on vision-language models for task planning from raw scene images, our <strong>Graph-then-Plan</strong> strategy—which incorporates task-oriented scene graph generation as an intermediate structured representation prior to high-level planning, substantially improves both the accuracy and robustness of task planning.
           </p>
@@ -1744,7 +1738,7 @@
     <br>
     
     <div>
-      <h3 style="color: #0780cf; margin-top: 30px;">Are Single-Relationship Graphs Adequate for Embodied Agents?</h3>
+      <h3 style="color: #FDB515; margin-top: 30px;">Are Single-Relationship Graphs Adequate for Embodied Agents?</h3>
     </div>
     <p class="abstract" style="margin-top: 20px;">
       To ensure a fair comparison, we retrain our model using the same graph structure as in our approach, but constrain the edge types to encode only a single kind of relation—either spatial or functional. This setup allows us to isolate the effect of relation types while keeping the graph topology consistent, thereby directly examining whether single-relation representations are sufficient for task planning. To ensure this finding generalizes beyond one specific architecture, we evaluate this comparison across different base models using the same dataset and experimental configurations. As demonstrated in the table below, both <strong>MomaGraph-R1</strong> (trained from Qwen-2.5-VL-7B) and LLaVA-Onevision consistently show superior performance with unified spatial-functional scene graphs compared to single-relationship variants, supporting our hypothesis that integrated representations are essential for effective embodied task planning. Detailed training methodology is described in the following section.
@@ -1755,9 +1749,9 @@
     </div>
     <br>
     <div style="display: flex; justify-content: center;">
-      <div style="border: 2px solid #0780cf; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #f8f9ff; width: 900px;">
+      <div style="border: 2px solid #FFD6A5; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #FFF8F0; width: 900px;">
         <div>
-          <h4 style="color: #0780cf; margin-top: 0; margin-bottom: 15px;">Preliminary Findings 2</h4>
+          <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px;">Preliminary Findings 2</h4>
           <p style="font-style: italic; margin-bottom: 0;">
             • Graph representations that rely solely on spatial relationships or solely on functional relationships are insufficient. For embodied agents, <strong>a unified representation that jointly models both spatial and functional relationships</strong> provides a more complete and effective foundation for perception and action.
           </p>
@@ -1769,10 +1763,10 @@
     <div>
       <div>
         <div>
-          <h2 style="color: #0780cf;">Method</h2>
+          <h2 style="color: #FDB515;">Method</h2>
         </div>
         <div style="margin-top: 20px;">
-          <h3 style="color: #0780cf; font-size: 1.3em; margin-bottom: 15px;">VLMs Learn Scene Graph Representations with Reinforcement Learning</h3>
+          <h3 style="color: #FDB515; font-size: 1.3em; margin-bottom: 15px;">VLMs Learn Scene Graph Representations with Reinforcement Learning</h3>
           <p class="abstract">
             We use reinforcement learning with a graph-based reward to teach VLMs to build more accurate and task-relevant scene graphs. The reward checks action correctness, edge accuracy, and node completeness, while also enforcing proper format and concise output. This feedback helps the model learn compact, structured scene graphs that better support planning in embodied tasks.
           </p>
@@ -1784,7 +1778,7 @@
         </div>
 
         <div style="margin-top: 30px;">
-          <h3 style="color: #0780cf; font-size: 1.3em; margin-bottom: 15px;">State-Aware Dynamic Scene Graph Update</h3>
+          <h3 style="color: #FDB515; font-size: 1.3em; margin-bottom: 15px;">State-Aware Dynamic Scene Graph Update</h3>
           <p class="abstract">
             The scene graph initially encodes task-relevant objects and uncertain, one-to-many functional hypotheses. After the agent executes an action and observes the resulting state change, the update function eliminates inconsistent hypotheses and reinforces confirmed correspondences. For example, only the knob that ignites the burner retains a control edge, while others are pruned, enabling the scene graph to evolve into a compact, state-aware dynamic representation.
           </p>
@@ -1803,7 +1797,7 @@
     <div>
       <div>
         <div>
-          <h2 style="color: #0780cf;">Dataset</h2>
+          <h2 style="color: #FDB515;">Dataset</h2>
         </div>
         <p class="abstract" style="margin-top: 20px;">
           We introduce <strong>MomaGraph-Scenes</strong>, the first dataset designed to provide a more comprehensive and task-relevant scene representation. Our dataset jointly encodes <em>spatial relationships</em> and <em>functional relationships</em>, which explicitly represent interactive elements such as handles and buttons. Our dataset consists of approximately 1,050 task-oriented subgraphs and 6,278 multi-view RGB images, collected from a combination of manually collected real-world data, re-annotated existing datasets, and simulated environments built with AI2-THOR. These samples span more than <strong>350 diverse household scenes</strong> and encompass <strong>93 distinct task instructions</strong>. Compared with prior datasets, our annotations are significantly more detailed, and capturing interaction semantics at both the object and part levels. This broad coverage ensures rich variability in scene layouts, object configurations, and interaction types, supporting robust learning and evaluation of embodied reasoning.
@@ -1819,7 +1813,7 @@
 
     <!-- Dataset Viewer -->
     <div>
-      <h3 class="main-title" style="font-size: 1.4rem; font-weight: 600; color: #0780cf; margin-bottom: 15px;">Dataset Viewer</h3>
+      <h3 class="main-title" style="font-size: 1.4rem; font-weight: 600; color: #FDB515; margin-bottom: 15px;">Dataset Viewer</h3>
 
       <div class="category-nav">
           <button class="category-btn active" onclick="showCategory('living-room')">Living Room</button>
@@ -1928,10 +1922,10 @@
     <div>
       <div>
         <div>
-          <h2 style="color: #0780cf;">MomaGraph Benchmark and Evaluation</h2>
+          <h2 style="color: #FDB515;">MomaGraph Benchmark and Evaluation</h2>
         </div>
         <p class="abstract" style="margin-top: 20px;">
-          We introduce <strong>MomaGraph-Bench</strong>, the first benchmark that jointly evaluates fine-grained scene understanding and task planning abilities across diverse levels of difficulty. Our design principle for <strong>MomaGraph-Bench</strong> is to evaluate whether advances in scene understanding provide tangible improvements in downstream task planning and reasoning. Our evaluation framework examines six essential reasoning capabilities in four tiers of difficulty levels: (1) <em>Action Sequence Reasoning</em>, (2) <em>Spatial Reasoning</em>, (3) <em>Object Affordance Reasoning</em>, (4) <em>Precondition & Effect Reasoning</em>, (5) <em>Goal Decomposition</em>, and (6) <em>Visual Correspondence</em> (with concrete examples shown in the figure below). <strong>MomaGraph-Bench</strong> is formulated as a multi-choice VQA task which comprises 294 diverse indoor scenes with 1,446 multi-view images, featuring 352 task-oriented scene graphs spanning 1,756 instances that range from simple object manipulation (Tier 1) to complex multi-step planning (Tier 4) scenarios. <strong>MomaGraph-Bench</strong> offers the most comprehensive assessment for embodied agents' capacity to generalize across tasks and scenarios. To ensure that the evaluation truly reflects generalization rather than memorization, all scenarios are drawn from <strong>entirely unseen environments</strong>.
+          We introduce <strong>MomaGraph-Bench</strong>, the first benchmark that jointly evaluates fine-grained scene understanding and task planning abilities across diverse levels of difficulty. Our design principle for <strong>MomaGraph-Bench</strong> is to evaluate whether advances in scene understanding provide tangible improvements in downstream task planning and reasoning. Our evaluation framework examines six essential reasoning capabilities in four tiers of difficulty levels: (1) <em>Action Sequence Reasoning</em>, (2) <em>Spatial Reasoning</em>, (3) <em>Object Affordance Reasoning</em>, (4) <em>Precondition & Effect Reasoning</em>, (5) <em>Goal Decomposition</em>, and (6) <em>Visual Correspondence</em> (with concrete examples shown in the figure below). <strong>MomaGraph-Bench</strong> is formulated as a multi-choice VQA task which comprises 294 diverse indoor scenes with 1,446 multi-view images, featuring 352 task-oriented scene graphs spanning 1,315 instances that range from simple object manipulation (Tier 1) to complex multi-step planning (Tier 4) scenarios. <strong>MomaGraph-Bench</strong> offers the most comprehensive assessment for embodied agents' capacity to generalize across tasks and scenarios. To ensure that the evaluation truly reflects generalization rather than memorization, all scenarios are drawn from <strong>entirely unseen environments</strong>.
         </p>
         <br>
         <div style="display: flex; justify-content: center;">
@@ -1941,7 +1935,7 @@
       </div>
       <div>
         <div>
-          <h2 style="color: #0780cf;">Experimental Results</h2>
+          <h2 style="color: #FDB515;">Experimental Results</h2>
         </div>
         <p class="abstract" style="margin-top: 20px;">
           We compare the performance of our <strong>MomaGraph-R1</strong> with other models across all task tiers in <strong>MomaGraph-Bench</strong> to rigorously assess embodied planning, including state-of-the-art closed source models (Claude-4-Sonnet, GPT-5, Gemini-2.5-Pro) and leading open source models (InstructBLIP, LLaVA-V1.5, DeepSeek-VL2, InternVL2.5, LLaVA-OneVision, Qwen2.5). We further examine whether <em>Graph-then-Plan</em> brings performance gains by evaluating each model under two controlled settings: (i) <em>Direct Plan (w/o Graph)</em>: the model is directly evaluated on task planning in <strong>MomaGraph-Bench</strong> using multi-view observations and instructions; (ii) <em>Graph-then-Plan (w/ Graph)</em>: the model first generates a task-oriented scene graph, capturing nodes, spatial and functional edges, and action types, and then performs task planning conditioned on the graph.
@@ -1952,16 +1946,16 @@
         </div>
         <br>
         
-        <h3 style="color: #0780cf; margin-top: 30px;">Experiment 1: Result Analysis</h3>
+        <h3 style="color: #FDB515; margin-top: 30px;">Experiment 1: Result Analysis</h3>
         <p class="abstract" style="margin-top: 20px;">
           The results yield several key insights:
         </p>
         <br>
         
         <div style="display: flex; justify-content: center; margin: 20px 0;">
-          <div style="border-left: 5px solid #d1bde8; background: linear-gradient(135deg, #fefcff 0%, #f9f6ff 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(209, 189, 232, 0.08);">
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(253, 181, 21, 0.08);">
             <div style="text-align: left; width: 100%;">
-              <h4 style="color: #b19cd9; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(1) Effectiveness of Graph-then-Plan</h4>
+              <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(1) Effectiveness of Graph-then-Plan</h4>
               <p style="margin-bottom: 0; color: #2d3436; text-align: left;">
                 Across all models, the <em>w/ Graph</em> setting consistently outperforms the <em>w/o Graph</em> baseline, demonstrating that explicitly structuring task-oriented scene graphs provides a tangible benefit for downstream planning. This validates our central hypothesis that disentangling scene representation from action generation improves reasoning reliability.
               </p>
@@ -1970,9 +1964,9 @@
         </div>
         
         <div style="display: flex; justify-content: center; margin: 20px 0;">
-          <div style="border-left: 5px solid #d1bde8; background: linear-gradient(135deg, #fefcff 0%, #f9f6ff 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(209, 189, 232, 0.08);">
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(253, 181, 21, 0.08);">
             <div style="text-align: left; width: 100%;">
-              <h4 style="color: #b19cd9; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(2) Competitiveness of MomaGraph-R1</h4>
+              <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(2) Competitiveness of MomaGraph-R1</h4>
               <p style="margin-bottom: 0; color: #2d3436; text-align: left;">
                 Our <strong>MomaGraph-R1</strong> achieves performance on par with closed-source giants like Claude-4-Sonnet and GPT-5, while clearly surpassing all leading open-source VLMs. Notably, <strong>MomaGraph-R1</strong> delivers a <strong>+11.4%</strong> relative improvement over its base model (Qwen2.5-VL-7B) under <em>w/ Graph</em>, highlighting the effectiveness of reinforcement learning with graph-based rewards.
               </p>
@@ -1981,9 +1975,9 @@
         </div>
         
         <div style="display: flex; justify-content: center; margin: 20px 0;">
-          <div style="border-left: 5px solid #d1bde8; background: linear-gradient(135deg, #fefcff 0%, #f9f6ff 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(209, 189, 232, 0.08);">
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(253, 181, 21, 0.08);">
             <div style="text-align: left; width: 100%;">
-              <h4 style="color: #b19cd9; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(3) Scalability with Task Complexity</h4>
+              <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(3) Scalability with Task Complexity</h4>
               <p style="margin-bottom: 0; color: #2d3436; text-align: left;">
                 As task complexity increases from Tier 1 to Tier 4, the performance of most open-source baselines drops sharply, reflecting their limited ability to generalize to multi-step reasoning. In contrast, <strong>MomaGraph-R1</strong> exhibits a much smaller degradation, preserving strong performance in Tier 3 and Tier 4. This indicates superior scalability to long-horizon planning scenarios, a crucial capability for embodied agents.
               </p>
@@ -1992,9 +1986,9 @@
         </div>
         
         <div style="display: flex; justify-content: center; margin: 20px 0;">
-          <div style="border-left: 5px solid #d1bde8; background: linear-gradient(135deg, #fefcff 0%, #f9f6ff 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(209, 189, 232, 0.08);">
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(253, 181, 21, 0.08);">
             <div style="text-align: left; width: 100%;">
-              <h4 style="color: #b19cd9; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(4) General Trend Across Communities</h4>
+              <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">(4) General Trend Across Communities</h4>
               <p style="margin-bottom: 0; color: #2d3436; text-align: left;">
                 Closed-source models still maintain the highest absolute performance, benefiting from larger-scale pretraining and proprietary data. However, the consistent gap reduction achieved by <strong>MomaGraph-R1</strong> shows that reinforcement learning with graph-structured intermediate representations can substantially narrow the divide, offering a practical path toward competitive open-source systems.
               </p>
@@ -2003,7 +1997,7 @@
         </div>
         <br>
         
-        <h3 style="color: #0780cf; margin-top: 30px;">Experiment 2: Benchmark Evaluation for Visual Correspondence</h3>
+        <h3 style="color: #FDB515; margin-top: 30px;">Experiment 2: Benchmark Evaluation for Visual Correspondence</h3>
         <p class="abstract" style="margin-top: 20px;">
           As the model learns scene representations from multi-view observations, it exhibits an emergent ability of <em>cross-view consistency</em>, which can reason about the same point across different viewpoints. This capability is most evident in visual correspondence tasks. As shown in the table below, we compare model performance on visual correspondence tasks from public benchmark BLINK and our <strong>MomaGraph-Bench</strong>.
         </p>
@@ -2013,16 +2007,16 @@
         </div>
         <br>
         
-        <h4 style="color: #0780cf; margin-top: 20px;">Result Analysis</h4>
+        <h4 style="color: #FDB515; margin-top: 20px;">Result Analysis</h4>
         <p class="abstract" style="margin-top: 15px;">
           Scene graph representations enhance performance universally by reducing VLM hallucinations in visual perception. By prompting models to first generate structured scene graphs (<em>w/ Graph</em>) and then answer questions in single-turn interactions, we force them to explicitly reason about spatial and functional relationships between objects before answering. We primarily evaluate perception on multi-view reasoning and visual correspondence tasks from BLINK, as well as multi-view correspondence in <strong>MomaGraph-Bench</strong>. Our <strong>MomaGraph-R1</strong> achieves state-of-the-art performance among open-source VLMs, leading by 3.8% on BLINK and 4.8% on our correspondence benchmark compared to the best competing open-source models. These results confirm that <strong>MomaGraph-R1</strong> enables more nuanced and detailed perception of complex indoor scenes, effectively mitigating hallucinations and enabling more reliable scene perception.
         </p>
         <br>
         
         <div style="display: flex; justify-content: center; margin: 20px 0;">
-          <div style="border-left: 5px solid #d1bde8; background: linear-gradient(135deg, #fefcff 0%, #f9f6ff 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(209, 189, 232, 0.08);">
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 8px; padding: 20px; width: 900px; box-shadow: 0 2px 8px rgba(253, 181, 21, 0.08);">
             <div style="text-align: left; width: 100%;">
-              <h4 style="color: #b19cd9; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">Experiment 2 Conclusion</h4>
+              <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 15px; font-weight: bold; text-align: left;">Experiment 2 Conclusion</h4>
               <p style="margin-bottom: 0; color: #2d3436; text-align: left;">
                 • <strong>MomaGraph-R1</strong> demonstrates superior cross-view consistency and visual correspondence capabilities, achieving <strong>3.8%</strong> improvement on BLINK and <strong>4.8%</strong> improvement on our correspondence benchmark. The structured scene graph representation effectively reduces VLM hallucinations and enables more reliable multi-view scene perception.
               </p>
@@ -2031,7 +2025,7 @@
         </div>
         <br>
         
-        <h3 style="color: #0780cf; margin-top: 30px;">Experiment 3: Real Robot Demonstrations</h3>
+        <h3 style="color: #FDB515; margin-top: 30px;">Experiment 3: Real Robot Demonstrations</h3>
       
         <p class="abstract" style="margin-top: 15px;">
           To validate the effectiveness of our model in real-world settings, we deploy on the RobotEra Q5, a bimanual humanoid platform with a mobile base. An Intel RealSense D455 camera is mounted to enhance RGB-D perception. Importantly, all evaluation scenes are <em>unseen</em>, ensuring that performance reflects true generalization.
@@ -2051,7 +2045,7 @@
         <div style="max-width: 1200px; margin: 0 auto;">
           <div style="display: flex; justify-content: center; margin-bottom: 40px;">
             <div style="display: flex; background-color: #f8f9fa; border-radius: 30px; padding: 8px; box-shadow: 0 3px 15px rgba(0,0,0,0.12);">
-              <button class="task-btn active" onclick="showTask('cabinet')" style="background-color: #0780cf; color: white; border: none; padding: 16px 32px; border-radius: 25px; margin: 0 4px; cursor: pointer; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important; font-size: 16px; transition: all 0.3s ease;">Open the Cabinet</button>
+              <button class="task-btn active" onclick="showTask('cabinet')" style="background-color: #FDB515; color: white; border: none; padding: 16px 32px; border-radius: 25px; margin: 0 4px; cursor: pointer; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important; font-size: 16px; transition: all 0.3s ease;">Open the Cabinet</button>
               <button class="task-btn" onclick="showTask('microwave')" style="background-color: transparent; color: #666; border: none; padding: 16px 32px; border-radius: 25px; margin: 0 4px; cursor: pointer; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important; font-size: 16px; transition: all 0.3s ease;">Open the Microwave</button>
               <button class="task-btn" onclick="showTask('tv')" style="background-color: transparent; color: #666; border: none; padding: 16px 32px; border-radius: 25px; margin: 0 4px; cursor: pointer; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important; font-size: 16px; transition: all 0.3s ease;">Turn on the TV</button>
               <button class="task-btn" onclick="showTask('light')" style="background-color: transparent; color: #666; border: none; padding: 16px 32px; border-radius: 25px; margin: 0 4px; cursor: pointer; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important; font-size: 16px; transition: all 0.3s ease;">Turn off the Light</button>
@@ -2082,7 +2076,7 @@
             });
             
             // Add active class to clicked button
-            event.target.style.backgroundColor = '#0780cf';
+            event.target.style.backgroundColor = '#FDB515';
             event.target.style.color = 'white';
             
             // Update content based on task
@@ -2371,7 +2365,7 @@
     <!-- Quantitative Real-Robot Evaluation Section -->
     <div>
       <div>
-        <h2 style="color: #0780cf;">Quantitative Real-Robot Evaluation with Long-Horizon Task</h2>
+        <h2 style="color: #FDB515;">Quantitative Real-Robot Evaluation with Long-Horizon Task</h2>
       </div>
       <p class="abstract" style="margin-top: 20px;">
         To address the reviewer's concern about lacking quantitative metrics, we conduct a systematic evaluation with a challenging long-horizon task that requires multi-step reasoning and sequential execution across 10 independent trials.
@@ -2384,8 +2378,8 @@
         <!-- Left Column: Task Information + Scene Image -->
         <div style="flex: 1; max-width: 480px;">
           <!-- Task Instruction Box -->
-          <div style="background: linear-gradient(135deg, #e8f4f8 0%, #d1e7f0 100%); border-radius: 10px; padding: 20px; margin-bottom: 20px; border-left: 5px solid #0780cf;">
-            <h4 style="color: #0780cf; margin-top: 0; margin-bottom: 12px; font-size: 1.1em;">Task Instruction</h4>
+          <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 10px; padding: 20px; margin-bottom: 20px; border-left: 5px solid #FFD6A5;">
+            <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 12px; font-size: 1.1em;">Task Instruction</h4>
             <p style="margin: 0; color: #2d3436; font-size: 1.05em; font-style: italic; line-height: 1.6;">
               "I need better lighting. Turn on the light closest to the remote so I can find it and turn on the monitor to watch."
             </p>
@@ -2397,8 +2391,8 @@
           </div>
           
           <!-- Task Challenges Box -->
-          <div style="background: #fff9e6; border-radius: 10px; padding: 20px; border-left: 5px solid #f39c12;">
-            <h4 style="color: #f39c12; margin-top: 0; margin-bottom: 12px; font-size: 1.1em;">Task Challenges</h4>
+          <div style="background: #FFF8F0; border-radius: 10px; padding: 20px; border-left: 5px solid #FFD6A5;">
+            <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 12px; font-size: 1.1em;">Task Challenges</h4>
             <p style="margin: 0; color: #2d3436; font-size: 0.95em; line-height: 1.7;">
               This task involves <strong>spatial reasoning</strong> (navigating to light switch, locating remote), <strong>functional understanding</strong> (light switch-light-remote-monitor relationships), <strong>state-dependent planning</strong> (lighting affects visibility), and <strong>manipulation across multiple objects</strong>.
             </p>
@@ -2408,7 +2402,7 @@
         <!-- Right Column: Sankey Diagram (Larger) -->
         <div style="flex: 1; max-width: 580px;">
           <div style="background: white; border-radius: 10px; padding: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-            <h4 style="color: #0780cf; margin-top: 0; margin-bottom: 25px; text-align: center; font-size: 1.2em;">Success Flow Analysis (N=10 trials)</h4>
+            <h4 style="color: #FDB515; margin-top: 0; margin-bottom: 25px; text-align: center; font-size: 1.2em;">Success Flow Analysis (N=10 trials)</h4>
             
             <!-- Sankey Diagram (Larger) -->
             <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -2423,8 +2417,8 @@
                   <div style="font-size: 0.9em; color: #2d3436; margin-top: 5px;">Overall Success</div>
                   <div style="font-size: 0.85em; color: #666; margin-top: 3px;">7/10 trials</div>
                 </div>
-                <div style="text-align: center; padding: 15px; background: #fff5e6; border-radius: 8px;">
-                  <div style="font-size: 2em; color: #f39c12; font-weight: bold;">3</div>
+                <div style="text-align: center; padding: 15px; background: #FFF8F0; border-radius: 8px;">
+                  <div style="font-size: 2em; color: #E67E22; font-weight: bold;">3</div>
                   <div style="font-size: 0.9em; color: #2d3436; margin-top: 5px;">Failures</div>
                 </div>
               </div>
@@ -2439,16 +2433,74 @@
 
     <!-- Success Demonstration Section -->
     <div class="container" style="margin-top: 50px;">
-      <h2 class="section-heading" style="text-align: center; margin-bottom: 30px;">Success Demonstration</h2>
+      <h2 class="section-heading" style="text-align: center; margin-bottom: 30px; color: #FDB515;">Successful Demonstration</h2>
       
       <div style="text-align: center;">
         <video controls style="max-width: 800px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); object-fit: contain; background: black;">
-          <source src="figures/succ.mp4" type="video/mp4">
+          <source src="figures/successful.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
     </div>
     <!-- End of Success Demonstration Section -->
+
+    <!-- Citation Section -->
+    <div class="container" style="margin-top: 80px; margin-bottom: 60px;">
+      <div style="max-width: 900px; margin: 0 auto;">
+        <h2 style="color: #FDB515; text-align: center; margin-bottom: 30px;">Citation</h2>
+        
+        <div style="background: linear-gradient(135deg, #FFFBF5 0%, #FFF8F0 100%); border-radius: 10px; padding: 30px; box-shadow: 0 4px 15px rgba(253, 181, 21, 0.1);">
+          <p style="color: #666; font-size: 0.95rem; margin-bottom: 20px; text-align: center;">
+            If you find this work useful for your research, please consider citing:
+          </p>
+          
+          <div style="background: #fff; border-radius: 8px; padding: 25px; font-family: 'Courier New', monospace; font-size: 0.9rem; line-height: 1.8; color: #2d3436; position: relative; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <button onclick="copyBibtex()" style="position: absolute; top: 15px; right: 15px; background: #FDB515; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 0.85rem; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; transition: all 0.3s ease;" onmouseover="this.style.background='#E5A514'" onmouseout="this.style.background='#FDB515'">
+              📋 Copy
+            </button>
+            
+            <pre id="bibtex-code" style="margin: 0; white-space: pre-wrap; word-wrap: break-word;">@article{momagraph2025,
+  title={MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning},
+  author={[Author Names]},
+  journal={[Conference/Journal Name]},
+  year={2025}
+}</pre>
+          </div>
+          
+          <script>
+            function copyBibtex() {
+              const bibtexText = document.getElementById('bibtex-code').textContent;
+              
+              // Create temporary textarea
+              const textarea = document.createElement('textarea');
+              textarea.value = bibtexText;
+              textarea.style.position = 'fixed';
+              textarea.style.opacity = '0';
+              document.body.appendChild(textarea);
+              
+              // Select and copy
+              textarea.select();
+              document.execCommand('copy');
+              
+              // Remove textarea
+              document.body.removeChild(textarea);
+              
+              // Show feedback
+              const button = event.target;
+              const originalText = button.innerHTML;
+              button.innerHTML = '✓ Copied!';
+              button.style.background = '#27ae60';
+              
+              setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#FDB515';
+              }, 2000);
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-- End of Citation Section -->
 
 
 
